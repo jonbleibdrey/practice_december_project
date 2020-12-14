@@ -8,6 +8,9 @@ function App() {
        <li>
          booga booga
        </li>
+       <li>
+         good lord king coopa
+       </li>
      </ul>
     
     </div>
