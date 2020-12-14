@@ -1,18 +1,11 @@
 import React from 'react'
-import './App.css';
+import Link from './Components/Link'
+
 
 function App() {
   return (
     <div>
-     <ul>
-       <li>
-         booga booga
-       </li>
-       <li>
-         good lord king coopa
-       </li>
-     </ul>
-    
+      <Link/>
     </div>
   );
 }
