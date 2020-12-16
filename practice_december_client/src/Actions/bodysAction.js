@@ -7,16 +7,16 @@ export const fetchBodys = () => {
 
 }
 
-// export const addRobot = robot => {
-//     return dispatch => {
-//           fetch('http://localhost:3001/robots', {
-//         method: 'POST',
-//         body:JSON.stringify(robot),
-//         headers: { 'Content-Type': 'application/json'}
-//     })
-//     .then(resp => resp.json())
-//     .then(robot => dispatch({type: 'ADD_ROBOT', payload: robot}))
+export const addBody = body => {
+    return dispatch => {
+          fetch('http://localhost:3001/bodies', {
+        method: 'POST',
+        body:JSON.stringify(body),
+        headers: { 'Content-Type': 'application/json'}
+    })
+    .then(resp => resp.json())
+    .then(body => dispatch({type: 'ADD_BODY', payload: body}))
         
-//     }
+    }
   
-// }
+}

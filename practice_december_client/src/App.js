@@ -4,7 +4,7 @@ import{fetchBodys} from './Actions/bodysAction'
 import{fetchDogs} from './Actions/dogsAction'
 import DogsList from './Components/DogsList'
 import BodysList from './Components/BodysList'
-import DogsForm from './Components/DogsForm'
+import BodysForm from './Components/BodysForm'
 
 
 
@@ -19,7 +19,7 @@ class App extends Component {
     <div>
       <DogsList />
       <BodysList/>
-      <DogsForm/>
+      <BodysForm/>
 
     </div>
   );
