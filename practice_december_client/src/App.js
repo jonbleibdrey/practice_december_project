@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import{connect} from 'react-redux'
 import{fetchBodys} from './Actions/bodysAction'
 import{fetchDogs} from './Actions/dogsAction'
-import DogsList from './Components/DogsList'
-import BodysList from './Components/BodysList'
+// import DogsList from './Components/DogsList'
 import BodysForm from './Components/BodysForm'
+import Router from './Components/Router'
 
 
 
@@ -17,10 +17,9 @@ class App extends Component {
   render(){
   return (
     <div>
-      <DogsList />
-      <BodysList/>
+      <Router/>
+      {/* <DogsList /> */}
       <BodysForm/>
-
     </div>
   );
   }

@@ -2,14 +2,18 @@ import React from 'react'
 import {Route, Switch} from 'react-router-dom'
 
 import Home from '../Components/Home'
-import App from './App'
+import BodysList from '../Components/BodysList'
 import About from '../Components/About'
 
 const Router = () => {
     return (
-        <div>
-            
-        </div>
+       <Switch>
+           <Route exact path='/' component={Home}/>
+           <Route exact path='/about' component={About}/>
+           <Route exact path='/body' component={BodysList}/>
+
+          
+       </Switch>
     )
 }
 

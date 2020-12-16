@@ -1,11 +1,35 @@
 import React from 'react'
+import {connect} from 'react-redux'
 
-const BodysList = () => {
+const BodysList = ({bodys}) => {
     return (
         <div>
-            bodyslist
+            <h1>
+                Bodys of america
+            </h1>
+            {bodys.map(body => 
+                <ul>
+                    <li key={body.id}>
+                        {body.head}
+                    </li>
+                    <li>
+                        {body.chest}
+                    </li>
+                    <li>
+                        {body.arm}
+                    </li>
+                    <li>
+                        {body.leg}
+                    </li>
+                </ul>
+                
+                )}
         </div>
     )
 }
 
-export default BodysList
+const mapStateToProps = state => {
+    return {bodys: state.bodys}
+}
+
+export default connect(mapStateToProps)(BodysList)
