@@ -6,6 +6,9 @@ import BodysList from './Components/BodysList'
 import BodysForm from './Components/BodysForm'
 import Router from './Components/Router'
 import{Parallax} from 'react-parallax'
+import NavBar from './Components/Navbar'
+import Home from './Components/Home'
+import About from './Components/About'
 
 
 
@@ -37,7 +40,11 @@ const image4 =
   }
 
   return (
-    <div style={{ textAlign: 'center' }}>
+    <div className="App" style={{ textAlign: 'center' }}>
+
+      <NavBar/>
+      <About/>
+
         <Parallax bgImage={image1} >
           <div style={{ height: 500, inLineStyle }}>
             <Router />
@@ -50,6 +57,7 @@ const image4 =
             <BodysForm/>
           </div>
         </Parallax>
+     
         <br/>
         <Parallax bgImage={image3}>
           <div style={{height:500, inLineStyle}}>
@@ -57,6 +65,7 @@ const image4 =
           </div>
         </Parallax>
         <br/>
+        <Home/>
     </div>
   );
   }

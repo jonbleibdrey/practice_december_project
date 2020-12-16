@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 
 const BodysList = ({bodys}) => {
     return (
-        <div>
+        <div id="bodyslist">
             <h1>
                 Bodys of america
             </h1>
