@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import Form from 'react-bootstrap/Form';
 import{addBody} from '../Actions/bodysAction'
-import BodysList from '../Components/BodysList'
+
 
 class BodysForm extends Component {
     state = {
@@ -28,7 +28,6 @@ class BodysForm extends Component {
     render() {
         return (
             <div>
-                <BodysList/>
             <Form onSubmit={this.handleSubmit}>
                  <Form.Group> 
                  <Form.Label>Head</Form.Label>  
