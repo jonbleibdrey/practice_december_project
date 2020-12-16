@@ -1,4 +1,4 @@
-export const fetchDog = () => {
+export const fetchDogs = () => {
     return(dispatch) => {
         fetch('http://localhost:3001/dogs')
         .then(resp => resp.json())

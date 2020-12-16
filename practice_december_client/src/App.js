@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { Component } from 'react'
+import{connect} from 'react-redux'
+import{fetchBodys} from './Actions/bodysAction'
+import{fetchDogs} from './Actions/dogsAction'
+import DogsList from './Components/DogsList'
+import BodysList from './Components/BodysList'
+import DogsForm from './Components/DogsForm'
 
 
 
-function App() {
+class App extends Component {
+
+  componentDidMount() {
+    this.props.fetchBodys()
+    this.props.fetchDogs()
+  }
+  render(){
   return (
     <div>
-      hello world
-      
+      <DogsList />
+      <BodysList/>
+      <DogsForm/>
+
     </div>
   );
+  }
 }
 
-export default App;
+export default connect(null, {fetchBodys,fetchDogs})(App);

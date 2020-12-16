@@ -1,4 +1,4 @@
-export const fetchBody = () => {
+export const fetchBodys = () => {
     return(dispatch) => {
         fetch('http://localhost:3001/bodies')
         .then(resp => resp.json())
