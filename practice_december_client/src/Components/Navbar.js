@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import '../App.css'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const Navbar = () => {
     return (
-      <div className='navbar'>
+      <div className='navbar' >
+        
         <Link
     activeClass="active"
     to="home"
@@ -12,7 +14,7 @@ const Navbar = () => {
     smooth={true}
     offset={-70}
     duration={500}
-        >home</Link>
+        ><h1>Home</h1></Link>
         <br/>
         <Link
     activeClass="active"
@@ -21,7 +23,16 @@ const Navbar = () => {
     smooth={true}
     offset={-70}
     duration={500}
-        >bodyslist</Link>
+        ><h1>Body List</h1></Link>
+        <br/>
+        <Link
+    activeClass="active"
+    to="bodysform"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+        ><h1>Body Form</h1></Link>
         <br/>
         <Link
     activeClass="active"
@@ -30,7 +41,8 @@ const Navbar = () => {
     smooth={true}
     offset={-70}
     duration={500}
-        >about</Link>
+        ><h1>About</h1></Link>
+       
       </div>
     )
 }

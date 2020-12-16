@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import Form from 'react-bootstrap/Form';
 import{addBody} from '../Actions/bodysAction'
+import './BodysForm.css'
 
 
 class BodysForm extends Component {
@@ -27,7 +28,7 @@ class BodysForm extends Component {
 
     render() {
         return (
-            <div>
+            <div className="bodysform" id="bodysform">
             <Form onSubmit={this.handleSubmit}>
                  <Form.Group> 
                  <Form.Label>Head</Form.Label>  

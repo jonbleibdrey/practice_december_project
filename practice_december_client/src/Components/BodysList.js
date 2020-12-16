@@ -1,9 +1,10 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import './BodysList.css'
 
 const BodysList = ({bodys}) => {
     return (
-        <div id="bodyslist">
+        <div className="bodyslist" id="bodyslist">
             <h1>
                 Bodys of america
             </h1>
