@@ -1,4 +1,4 @@
-export const DogsReducer = (state = [], action) => {
+export const dogsReducer = (state = [], action) => {
     switch(action.type){
         case 'FETCH_DOGS':
             return action.payload
