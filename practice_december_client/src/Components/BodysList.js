@@ -10,10 +10,10 @@ const BodysList = ({bodys}) => {
                 Bodys list
             </h1>
             {bodys.map(body => 
-                <Card className='card' style={{ width: '18rem' }}>
-                    <Card.Body key={body.id}>
+                <Card className='card' >
+                    <Card.Body >
                     <Card.Title>Body</Card.Title>
-                    <Card.Text>
+                    <Card.Text key={body.id}>
                        Head Type: {body.head}
                        <br/>
                        <br/>
@@ -23,7 +23,6 @@ const BodysList = ({bodys}) => {
                        Arm Type: {body.arm}
                        <br/>
                        <br/>
-                    
                         Leg Type: {body.leg}
                        <br/>
                        <br/>
