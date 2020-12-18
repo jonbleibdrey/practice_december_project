@@ -6,7 +6,7 @@ const BodysList = ({bodys}) => {
     return (
         <div className="bodyslist" id="bodyslist">
             <h1>
-                Bodys of america
+                Bodys list
             </h1>
             {bodys.map(body => 
                 <ul>
