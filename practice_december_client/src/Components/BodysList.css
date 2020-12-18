@@ -1,12 +1,15 @@
 .bodyslist{
     background: white;
     padding: 10px;
-    margin: 20%; 
-    justify-content: center;
+    margin: 25%; 
     overflow: visible;
     font-size: calc(10px + 2vmin);
     
    
+    
+}
+
+.card{
     
 }
  

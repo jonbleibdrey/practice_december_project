@@ -6,7 +6,8 @@ const About = () => {
         <div className="about" id="about">
            <h1>
            What is About?
-           <br/>
+           </h1>
+           <p>
             Lorem Ipsum is simply dummy text 
             of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy 
@@ -20,7 +21,7 @@ const About = () => {
             and more recently with desktop publishing software 
             like Aldus PageMaker including versions of Lorem
              Ipsum
-           </h1>
+           </p>
            
         </div>
     )
