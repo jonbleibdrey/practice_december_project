@@ -1,3 +1,8 @@
 .about{
-    font-size: 100px;
+    background: white;
+    padding: 10px;
+    margin: 20%; 
+    justify-content: center;
+    overflow: visible;
+    font-size: calc(10px + 2vmin);
 }

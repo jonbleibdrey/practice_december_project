@@ -29,6 +29,7 @@ class BodysForm extends Component {
     render() {
         return (
             <div className="bodysform" id="bodysform">
+                <h1>Create a body</h1>
             <Form onSubmit={this.handleSubmit}>
                  <Form.Group> 
                  <Form.Label>Head</Form.Label>  

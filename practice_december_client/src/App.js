@@ -26,20 +26,20 @@ class App extends Component {
     <div className="App" style={{ textAlign: 'center' }}>
         <NavBar/>
           <div className='background1'>
-            <Router />
-          </div>
-        <br/>
-          <div className='background3'>
-            <BodysList/>
-          </div>
-        <br/>
-          <div className='background2' >
-            <BodysForm/>
+            <Home />
           </div>
         <br/>
         <div className='background4'>
         <About/>
         </div>
+        <br/>
+          <div className='background2' >
+            <BodysForm/>
+          </div>
+        <br/>
+          <div className='background3'>
+            <BodysList/>
+          </div>
         </div>
   );
   }

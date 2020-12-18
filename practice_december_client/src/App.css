@@ -1,25 +1,25 @@
 .App {
   text-align: center;
   background: white;
-    padding: 10px;
-    margin: 20%;
+    padding: 20px;
+    margin: 4%;
 }
 
 
 .background1{
   background-image: url("https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
    height: 100%;
-   width: 100%;
+   width: 89%;
    padding: 25px;
-   margin: 10px;
+   margin: 4%;
    
 }
 .background2{
   background-image: url("https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001");
   height: 100%;
-  width: 100%;
-  padding: 10px;
-  margin: 20px;
+  width: 89%;
+  padding: 25px;
+  margin: 4%;
    
    
 
@@ -28,9 +28,9 @@
 .background3{
   background-image: url( "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg");
   height: 100%;
-   width: 100%;
-   padding: 10px;
-   margin: 20px;
+  width: 89%;
+  padding: 25px;
+  margin: 4%;
    
    
 
@@ -39,13 +39,23 @@
 .background4{
   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg" );
   height: 100%;
-   width: 100%;
-   padding: 10px;
-   margin: 20px;
+  width: 89%;
+  padding: 25px;
+  margin: 4%;
    
    
 
    
+}
+
+.navbar{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+
 }
 
 
