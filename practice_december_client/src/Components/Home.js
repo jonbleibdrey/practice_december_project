@@ -7,7 +7,7 @@ const Home = () => {
             
             <h1> Home page</h1>
             <h2>words</h2>
-            <p>there once was a day and night and we talked all night</p>
+            <p>Practice to make a slow scroll webpage </p>
         </div>
     )
 }
